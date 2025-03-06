@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iansui&display=swap');
+
+html {
+    box-sizing: border-box;
+    background-image: url(../images/background-image.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+    text-align: center;
+    display: block;
+    left: auto;
+    right: auto;
+    background-color: lightblue;
+    width: 60%;
+    padding: 5px;
+    margin: auto;
+}
+
+h1, h2 {
+    font-family: "DM Serif Display";
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 50px;
+    text-shadow: 1.2px 1.2px white;
+}
+
+h2 {
+    font-size: 35px;
+    margin-top: 0;
+}
+
+p {
+    font-family: "Iansui";
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 5px;
+    padding-bottom: 10px;
+}
+
+em {
+    font-weight: 900;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+main div {
+    width: 50%;
+    border: 1px solid lightblue;
+}
