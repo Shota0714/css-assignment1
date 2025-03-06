@@ -63,3 +63,20 @@ main div {
     width: 50%;
     border: 1px solid lightblue;
 }
+
+footer {
+    text-align: left;
+}
+
+h3 {
+    margin: 0;
+    padding: 5px 0 5px 5px;
+    font-family: "DM Serif Display";
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-family: "DM Serif Display";
+}
